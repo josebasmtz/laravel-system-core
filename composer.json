@@ -1,0 +1,25 @@
+{
+    "name": "josebasmtz/laravel-system-core",
+    "description": "Model View Controller, Service Repository from Laravel. A extension",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jose Martinez",
+            "email": "josebasmtzx@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.1",
+        "laravel/framework": "^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Josebasmtz\\SystemCore\\": "src"
+        },
+        "classmap": [
+            "src/Helpers/SystemCoreHelpers.php"
+        ]
+    }
+}

@@ -21,5 +21,12 @@
         "classmap": [
             "src/Helpers/SystemCoreHelpers.php"
         ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Josebasmtz\\SystemCore\\Providers\\SystemCoreServiceProvider"
+            ]
+        }
     }
 }
